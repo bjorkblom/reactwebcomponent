@@ -11,14 +11,14 @@ class List extends HTMLElement {
         });
     }
 
-    /* connectedCallback() {
+    connectedCallback() {
         this.render();
     }
 
     render() {
         this.innerHTML = `
-            Hello!
+            Hello from web components!
         `
-    } */
+    }
 }
 window.customElements.define('o-list', List);
